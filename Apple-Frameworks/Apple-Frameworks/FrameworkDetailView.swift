@@ -12,6 +12,17 @@ struct FrameworkDetailView: View {
     
     var body: some View {
         VStack {
+            HStack() {
+                Spacer()
+                Button(action: {
+                    
+                }, label: {
+                    Image(systemName: "xmark")
+                        .foregroundColor(Color(.label))
+                        .imageScale(.large)
+                        .frame(width: 44, height: 44)
+                })
+            }.padding()
             Spacer()
             FrameworkView(framework: framework)
             Text(framework.description)
