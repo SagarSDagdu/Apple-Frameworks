@@ -12,6 +12,7 @@
 		AC54C8A02668F74E00EACD81 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC54C89F2668F74E00EACD81 /* Preview Assets.xcassets */; };
 		AC54C8B92668F81E00EACD81 /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC54C8B82668F81E00EACD81 /* Framework.swift */; };
 		AC54C8BD2668F8CE00EACD81 /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC54C8BC2668F8CE00EACD81 /* FrameworkGridView.swift */; };
+		AC54C8C12668FA0800EACD81 /* FrameworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC54C8C02668FA0800EACD81 /* FrameworkView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		AC54C8A12668F74E00EACD81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC54C8B82668F81E00EACD81 /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
 		AC54C8BC2668F8CE00EACD81 /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
+		AC54C8C02668FA0800EACD81 /* FrameworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				AC54C8BC2668F8CE00EACD81 /* FrameworkGridView.swift */,
+				AC54C8C02668FA0800EACD81 /* FrameworkView.swift */,
 				AC54C8982668F74C00EACD81 /* Apple_FrameworksApp.swift */,
 				AC54C89C2668F74E00EACD81 /* Assets.xcassets */,
 				AC54C8A12668F74E00EACD81 /* Info.plist */,
@@ -144,6 +147,7 @@
 				AC54C8BD2668F8CE00EACD81 /* FrameworkGridView.swift in Sources */,
 				AC54C8B92668F81E00EACD81 /* Framework.swift in Sources */,
 				AC54C8992668F74C00EACD81 /* Apple_FrameworksApp.swift in Sources */,
+				AC54C8C12668FA0800EACD81 /* FrameworkView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
