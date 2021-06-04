@@ -10,7 +10,12 @@ import SwiftUI
 
 final class FrameworkGridViewModel: ObservableObject {
     
-    
+    /// Columns that need to be shown in the grid
+    let columns: [GridItem] = [GridItem(.flexible()),
+                               GridItem(.flexible()),
+                               GridItem(.flexible()),
+    ]
+
     /// Whenever a published var is changed, any view which has @Binding to it is redrawn
     @Published var isShowingDetailView = false
     
