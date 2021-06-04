@@ -27,4 +27,7 @@ final class FrameworkGridViewModel: ObservableObject {
         }
     }
     
+    /// This list should ideally be fetched from network / database and needs to be a published var
+    let frameworkList = MockData.frameworks
+    
 }

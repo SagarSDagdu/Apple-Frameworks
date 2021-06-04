@@ -15,7 +15,7 @@ struct FrameworkGridView: View {
         NavigationView {
             ScrollView {
                 LazyVGrid(columns: viewModel.columns, content: {
-                    ForEach(MockData.frameworks) { framework in
+                    ForEach(viewModel.frameworkList) { framework in
                         FrameworkView(framework: framework).onTapGesture {
                             viewModel.selectedFramework = framework
                         }.sheet(isPresented: $viewModel.isShowingDetailView, content: {
