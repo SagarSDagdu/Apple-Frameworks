@@ -16,6 +16,7 @@
 		AC54C8C5266904D000EACD81 /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC54C8C4266904D000EACD81 /* FrameworkDetailView.swift */; };
 		AC54C8C926690F5400EACD81 /* AFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC54C8C826690F5400EACD81 /* AFButton.swift */; };
 		AC54C8CD2669130100EACD81 /* FrameworkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC54C8CC2669130100EACD81 /* FrameworkGridViewModel.swift */; };
+		AC54C8D32669D8BB00EACD81 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC54C8D22669D8BB00EACD81 /* SafariView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		AC54C8C4266904D000EACD81 /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
 		AC54C8C826690F5400EACD81 /* AFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFButton.swift; sourceTree = "<group>"; };
 		AC54C8CC2669130100EACD81 /* FrameworkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridViewModel.swift; sourceTree = "<group>"; };
+		AC54C8D22669D8BB00EACD81 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				AC54C8BC2668F8CE00EACD81 /* FrameworkGridView.swift */,
 				AC54C8C02668FA0800EACD81 /* FrameworkView.swift */,
 				AC54C8C4266904D000EACD81 /* FrameworkDetailView.swift */,
+				AC54C8D22669D8BB00EACD81 /* SafariView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 				AC54C8C5266904D000EACD81 /* FrameworkDetailView.swift in Sources */,
 				AC54C8B92668F81E00EACD81 /* Framework.swift in Sources */,
 				AC54C8992668F74C00EACD81 /* Apple_FrameworksApp.swift in Sources */,
+				AC54C8D32669D8BB00EACD81 /* SafariView.swift in Sources */,
 				AC54C8C926690F5400EACD81 /* AFButton.swift in Sources */,
 				AC54C8CD2669130100EACD81 /* FrameworkGridViewModel.swift in Sources */,
 				AC54C8C12668FA0800EACD81 /* FrameworkView.swift in Sources */,

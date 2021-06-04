@@ -12,6 +12,8 @@ struct FrameworkDetailView: View {
     
     @Binding var isShowingDetailView: Bool
     
+    @State var isShowingSafariView:Bool
+    
     var body: some View {
         VStack {
             HStack() {
@@ -31,18 +33,20 @@ struct FrameworkDetailView: View {
                 .font(.body)
                 .padding()
             Spacer()
-            Button(action: {
-                print("Learn More")
-            }, label: {
+            Button {
+                isShowingSafariView = true
+            } label: {
                 AFButton(title: "Learn More")
-            })
-        }
+            }
+        }.sheet(isPresented: $isShowingSafariView, content: {
+            SafariView(link: framework.urlString)
+        })
     }
 }
 
 struct FrameworkDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        FrameworkDetailView(framework: MockData.frameworks[1], isShowingDetailView: .constant(false))
+        FrameworkDetailView(framework: MockData.frameworks[1], isShowingDetailView: .constant(false), isShowingSafariView: false)
             .preferredColorScheme(.dark)
     }
 }

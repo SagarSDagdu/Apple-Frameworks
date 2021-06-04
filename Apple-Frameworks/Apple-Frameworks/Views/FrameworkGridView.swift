@@ -24,7 +24,7 @@ struct FrameworkGridView: View {
                         FrameworkView(framework: framework).onTapGesture {
                             viewModel.selectedFramework = framework
                         }.sheet(isPresented: $viewModel.isShowingDetailView, content: {
-                            FrameworkDetailView(framework: viewModel.selectedFramework ?? MockData.sampleFramework, isShowingDetailView: $viewModel.isShowingDetailView)
+                            FrameworkDetailView(framework: viewModel.selectedFramework ?? MockData.sampleFramework, isShowingDetailView: $viewModel.isShowingDetailView, isShowingSafariView: false)
                         })
                     }
                 })
